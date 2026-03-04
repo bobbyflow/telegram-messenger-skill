@@ -1,4 +1,4 @@
----
+﻿---
 name: telegram-messenger
 description: Send results and images to your local Telegram Desktop account via a surgical Python bridge. Use when you need to output data to Telegram contacts or groups without UI interference.
 ---
@@ -7,10 +7,10 @@ description: Send results and images to your local Telegram Desktop account via 
 
 This skill allows AI agents to send text output and images directly to your local Telegram Desktop client using a hardware-resilient Python bridge.
 
-## 🌟 Key Features
-- **⚡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
-- **🛠️ Self-Healing**: Automatically launches Telegram if it's closed or hidden in the system tray.
-- **🛡️ Absolute Zero Aggression**: Forces Telegram to front and locks hardware input (Requires Admin).
+## ðŸŒŸ Key Features
+- **âš¡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
+- **ðŸ› ï¸ Self-Healing**: Automatically launches Telegram if it's closed or hidden in the system tray.
+- **ðŸ›¡ï¸ Absolute Zero Aggression**: Forces Telegram to front and locks hardware input (Requires Admin).
 
 ## Tools
 
@@ -35,4 +35,4 @@ Sends a message or image to a specific Telegram contact.
 - **Telegram Desktop Required**: The Windows Desktop application must be installed.
 
 ---
-Bobby Choi, Sovereign | Opal, Architect
+Bobby Choi (Sovereign) | Opal (Architect)
