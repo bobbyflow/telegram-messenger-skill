@@ -35,4 +35,4 @@ Sends a message or image to a specific Telegram contact.
 - **Telegram Desktop Required**: The Windows Desktop application must be installed.
 
 ---
-Engineered by Opal | Systems Architect
+Bobby Choi Sovereign | Opal Architect
