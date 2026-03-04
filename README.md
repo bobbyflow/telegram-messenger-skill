@@ -1,4 +1,4 @@
-# Telegram Messenger
+﻿# Telegram Messenger
 ### Multi-Protocol Execution.
 
 ---
@@ -10,13 +10,13 @@ The Telegram Messenger skill is a dual-mode communication bridge designed for th
 
 ## Capabilities
 
-### ⚡️ Desktop Dominance
+### âš¡ï¸ Desktop Dominance
 Using **Absolute Zero Aggression**, the bridge bypasses the standard UI tree to deliver high-speed keyboard injection directly into the Telegram Desktop client. Includes kernel-level locking to prevent user interference.
 
-### 🛡️ Cloud-Fallback Protocol
+### ðŸ›¡ï¸ Cloud-Fallback Protocol
 When the desktop is unavailable, the system automatically routes traffic through the Telegram Bot API, ensuring that your mission-critical updates reach their destination regardless of local state.
 
-### 🧠 Tactical Control
+### ðŸ§  Tactical Control
 Engineered for rapid search and delivery. The system utilizes "Atomic Blast Search" to find contacts and groups instantly, eliminating the lag associated with manual navigation.
 
 ---
@@ -37,4 +37,4 @@ Automatically routes messages through the optimal channel (User Mode or Cloud Mo
 
 ---
 
-Bobby Choi, Sovereign | Opal, Architect
+Bobby Choi (Sovereign) | Opal (Architect)
