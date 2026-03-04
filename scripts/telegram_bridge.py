@@ -14,8 +14,21 @@ import ctypes
 
 user32 = ctypes.windll.user32
 
-# --- CONFIGURATION ---
-TELEGRAM_PATH = os.path.expandvars(r"%APPDATA%\Telegram Desktop\Telegram.exe")
+# --- PORTABLE CONFIGURATION ---
+def find_telegram_path():
+    possible_paths = [
+        os.path.expandvars(r"%APPDATA%\Telegram Desktop\Telegram.exe"),
+        os.path.expandvars(r"%LOCALAPPDATA%\Telegram Desktop\Telegram.exe"),
+        r"C:\Program Files\Telegram Desktop\Telegram.exe",
+        os.path.join(os.environ.get("ProgramFiles", "C:\\Program Files"), "Telegram Desktop\\Telegram.exe")
+    ]
+    for path in possible_paths:
+        if os.path.exists(path):
+            return path
+    return "Telegram.exe" # Fallback to PATH
+
+TELEGRAM_PATH = find_telegram_path()
+# Bot token and Chat ID remain constant for this specific skill deployment
 BOT_TOKEN = "8134458002:AAESCHwDz6GD1qw0CCs9zbckEmPtLRwFa8E" 
 MY_CHAT_ID = "8232676046"
 
