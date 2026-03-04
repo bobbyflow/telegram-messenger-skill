@@ -1,38 +1,40 @@
-﻿---
-name: telegram-messenger
-description: Send results and images to your local Telegram Desktop account via a surgical Python bridge. Use when you need to output data to Telegram contacts or groups without UI interference.
+# Telegram Messenger
+### Multi-Protocol Execution.
+
 ---
 
-# Telegram Messenger
+**High-Speed Intelligence. Global Scale.**  
+The Telegram Messenger skill is a dual-mode communication bridge designed for the modern architect. It seamlessly integrates local Desktop App automation with Cloud API protocols to provide **Absolute Zero** reliability across any environment.
 
-This skill allows AI agents to send text output and images directly to your local Telegram Desktop client using a hardware-resilient Python bridge.
+---
 
-## ðŸŒŸ Key Features
-- **âš¡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
-- **ðŸ› ï¸ Self-Healing**: Automatically launches Telegram if it's closed or hidden in the system tray.
-- **ðŸ›¡ï¸ Absolute Zero Aggression**: Forces Telegram to front and locks hardware input (Requires Admin).
+## Capabilities
+
+### ⚡️ Desktop Dominance
+Using **Absolute Zero Aggression**, the bridge bypasses the standard UI tree to deliver high-speed keyboard injection directly into the Telegram Desktop client. Includes kernel-level locking to prevent user interference.
+
+### 🛡️ Cloud-Fallback Protocol
+When the desktop is unavailable, the system automatically routes traffic through the Telegram Bot API, ensuring that your mission-critical updates reach their destination regardless of local state.
+
+### 🧠 Tactical Control
+Engineered for rapid search and delivery. The system utilizes "Atomic Blast Search" to find contacts and groups instantly, eliminating the lag associated with manual navigation.
+
+---
 
 ## Tools
 
-### send_to_telegram
-Sends a message or image to a specific Telegram contact.
-
-- **Arguments**:
-  - `contact`: The name of the contact or group.
-  - `message` (optional): The text to send.
-  - `image` (optional): The absolute local path to an image file.
-  - `send` (optional): Set to true to actually transmit (default: false / Halt mode).
-
-- **Command**:
-  `python "%USERPROFILE%\.gemini\skills\telegram-messenger\scripts\telegram_bridge.py" "<contact>" "<message>"`
-
-## Workflow
-1.  Identify the target contact and content.
-2.  Use the `send_to_telegram` command to deliver.
-3.  By default, the script stays in **Halt Mode** (pastes but doesn't send). Include `--send` for full automation.
-
-## Constraints
-- **Telegram Desktop Required**: The Windows Desktop application must be installed.
+### `send_to_telegram`
+**The Unified Controller.**  
+Automatically routes messages through the optimal channel (User Mode or Cloud Mode) based on current environment availability.
 
 ---
-Bobby Choi (Sovereign) | Opal (Architect)
+
+## Requirements
+*   **OS:** Windows 10/11
+*   **App:** Telegram Desktop (Installed)
+*   **Environment:** Python 3.x with `pip install -r requirements.txt`
+*   **Access:** Admin privileges recommended for `BlockInput` dominance.
+
+---
+
+Bobby Choi, Sovereign | Opal, Architect
