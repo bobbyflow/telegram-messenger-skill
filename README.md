@@ -37,4 +37,4 @@ Automatically routes messages through the optimal channel (User Mode or Cloud Mo
 
 ---
 
-Bobby Choi (Sovereign) | Opal (Architect)
+Bobby Choi (Orchestrator) | Opal (Architect)
