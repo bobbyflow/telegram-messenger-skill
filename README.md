@@ -1,22 +1,38 @@
-# 🚀 Telegram Messenger Skill for OpenClaw
+﻿---
+name: telegram-messenger
+description: Send results and images to your local Telegram Desktop account via a surgical Python bridge. Use when you need to output data to Telegram contacts or groups without UI interference.
+---
 
-A surgical, hardware-resilient bridge for automating Telegram Desktop from AI agents.
+# Telegram Messenger
 
-## 🌟 Key Features
-- **⚡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
-- **🛠️ Self-Healing**: Automatically launches Telegram if it's closed or hidden.
-- **🔄 Follow-the-Focus**: Automatically detects and re-binds if a chat is in a standalone window.
+This skill allows AI agents to send text output and images directly to your local Telegram Desktop client using a hardware-resilient Python bridge.
 
-## 📦 Installation
-```bash
-pip install pypiwin32 uiautomation pyperclip
-gemini skills install https://github.com/bobbyflow/telegram-messenger-skill
-```
+## ðŸŒŸ Key Features
+- **âš¡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
+- **ðŸ› ï¸ Self-Healing**: Automatically launches Telegram if it's closed or hidden in the system tray.
+- **ðŸ›¡ï¸ Absolute Zero Aggression**: Forces Telegram to front and locks hardware input (Requires Admin).
 
-## 🛠 Usage
-```bash
-python scripts/telegram_bridge.py "Contact Name" --message "Hello"
-```
+## Tools
+
+### send_to_telegram
+Sends a message or image to a specific Telegram contact.
+
+- **Arguments**:
+  - `contact`: The name of the contact or group.
+  - `message` (optional): The text to send.
+  - `image` (optional): The absolute local path to an image file.
+  - `send` (optional): Set to true to actually transmit (default: false / Halt mode).
+
+- **Command**:
+  `python "%USERPROFILE%\.gemini\skills\telegram-messenger\scripts\telegram_bridge.py" "<contact>" "<message>"`
+
+## Workflow
+1.  Identify the target contact and content.
+2.  Use the `send_to_telegram` command to deliver.
+3.  By default, the script stays in **Halt Mode** (pastes but doesn't send). Include `--send` for full automation.
+
+## Constraints
+- **Telegram Desktop Required**: The Windows Desktop application must be installed.
 
 ---
-Engineered by Opal | Systems Architect
+Bobby Choi Sovereign | Opal Architect
